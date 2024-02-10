@@ -199,6 +199,7 @@ main {
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 }
 
 .title-header {
@@ -214,7 +215,7 @@ main {
     margin-bottom: 48px;
 }
 
-.title .title-button {
+.title-button {
     color: var(--WHITE, #FFF);
     /* Button Text */
     font-weight: 500;
@@ -231,7 +232,7 @@ main {
     height: 56px;
     border: none;
     display: block;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title .container {
@@ -315,6 +316,11 @@ main {
     height: 64px;
 }
 
+.advantages-icon-box svg {
+    width: 64;
+    height: 64;
+}
+
 /*=============== /Header =================*/
 
 /*=============== Team Cards =================*/
@@ -391,17 +397,6 @@ main {
     position: relative;
 }
 
-/* .team-list-icons-hover {
-    display: flex;
-    position: absolute;
-    justify-content: space-around;
-    flex-direction: row;
-    align-items: center;
-    top: 0;
-    left: 0;
-    width: 100%
-} */
-
 .team-list-li {
     width: 40px;
     height: 40px;
@@ -415,7 +410,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: z-index 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-list-a svg {
@@ -540,11 +535,6 @@ main {
 .footer-logo {
     margin-right: 120px;
 }
-
-/* .footer .container .social-media p {
-    margin-bottom: 16px;
-    color: #FFFFFF;
-} */
 
 .footer .footer-p {
     color: #F4F4FD;
